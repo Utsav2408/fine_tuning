@@ -29,6 +29,7 @@ Here we use Ollama
 
 6. Create Model
 Note -> Make sure to update your directory in Modelfile, and Modelfile is in the root directory.
+-> ollama pull llama3.2 (If not done)
 -> ollama create {name} -f Modelfile
 
 This will add the model to your ollama, such that you can infer it.
